@@ -106,6 +106,6 @@ def make_move(board, position, direction):
 
                     return board
 
-print(make_move([["C", "A", "B", "C"], ["A", "B", "C", "A"], ["A", "B", "B", "C"], ["A", "A", "A", "A"]],
-                              (0, 2), "d"))
+print(make_move([["C", "A", "B", "C"], ["A", "B", "C", "A"], ["A", "B", "B", "C"], ["A", "A", "A", "A"]], (0, 2), "d"))
+
 print(make_move([["C", "A", "B", "C"], ["A", "B", "C", "A"], ["A", "B", "B", "A"], ["A", "C", "A", "A"]], (0, 2), "d"))
